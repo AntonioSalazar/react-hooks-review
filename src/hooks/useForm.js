@@ -14,10 +14,10 @@ const useForm = (initialState = {}) => {
         })
     }
 
-    const handleSubmit = e => {
-        e.preventDefault()
-        console.log(values);
-    }
+    // const handleSubmit = e => {
+    //     e.preventDefault()
+    //     console.log(values);
+    // }
 
     return [
         values, handleInputChange, reset
